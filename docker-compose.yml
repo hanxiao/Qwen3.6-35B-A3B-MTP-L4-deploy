@@ -5,7 +5,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ~/models:/models
+      - /home/hanxiao/models:/models
       - ./templates:/templates
     deploy:
       resources:
